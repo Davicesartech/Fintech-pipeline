@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Dados brutos gerados localmente pelo generate_data.py
+transacoes.csv
+cotacoes.csv
+
+# Artefatos gerados pelo pipeline (recriados a cada execução)
+outputs/*.csv
